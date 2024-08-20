@@ -47,6 +47,14 @@ public class CommentDTO implements Serializable{
 
 	public void setAuthor(AuthorDTO author) {
 		this.author = author;
+	}
+
+	public List<CommentDTO> getComments() {
+		return comments;
+	}
+
+	public void setComments(List<CommentDTO> comments) {
+		this.comments = comments;
 	}	
 	
 }
